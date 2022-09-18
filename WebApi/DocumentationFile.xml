@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApi</name>
+    </assembly>
+    <members>
+        <member name="P:WebApi.Controllers.BaseApiController.Mediator">
+            <summary>
+            Get Mediator 
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.EmployeeController.SaveEmployee(Application.Features.Employee.Commands.CreateEmployeeCommand)">
+            <summary>
+            Creates a New Employee.
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.EmployeeController.GetAllEmployees">
+            <summary>
+            Gets all Employee.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.EmployeeController.GetEmployeeById(System.Int32)">
+            <summary>
+            Gets Employee by Id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.EmployeeController.DeleteEmployee(System.Int32)">
+            <summary>
+            delete Employee by Id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.EmployeeController.UpdateEmployee(Application.Features.Employee.Commands.UpdateEmployeeCommand)">
+            <summary>
+            Update Employee by Id.
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.ErrorController.ErrorLocalDevelopment(Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            Development error
+            </summary>
+            <param name="webHostEnvironment"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.ErrorController.Error">
+            <summary>
+            Live Error
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
